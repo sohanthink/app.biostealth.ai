@@ -421,14 +421,15 @@ header .nav-fixed .nav-item .m-btn:hover {
   top: 0;
   height: 100vh;
 }
-.banner p {
-  padding-right: 60px;
-}
+
 .banner h1 {
   font-weight: 600;
   color: rgb(0, 0, 0);
   font-style: italic;
   color: #35434c;
+}
+.banner p {
+  margin-top: 30px;
 }
 .button {
   margin-top: 40px;
@@ -478,4 +479,21 @@ header .nav-fixed .nav-item .m-btn:hover {
 }
 .bannerImg img {
   filter: drop-shadow(0px 5px 17px #000);
+}
+.banner .animation img {
+  width: 80%;
+}
+.banner .animation {
+  position: absolute;
+  bottom: 20%;
+  right: 20px;
+  animation: mymove 50s infinite;
+}
+@keyframes mymove {
+  from {
+    bottom: 0%;
+  }
+  to {
+    bottom: 80%;
+  }
 }
