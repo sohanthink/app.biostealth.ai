@@ -507,7 +507,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 85% !important;
   }
 }
 .container-fluid,
