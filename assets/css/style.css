@@ -430,6 +430,7 @@ header .nav-fixed .nav-item .m-btn:hover {
 }
 .banner p {
   margin-top: 30px;
+  color: #5a67b2;
 }
 .button {
   margin-top: 40px;
@@ -443,16 +444,16 @@ header .nav-fixed .nav-item .m-btn:hover {
   font-family: sans-serif;
   font-size: 20px;
   padding: 10px 20px;
-  background-color: white;
+  background-color: #f2f3f5;
   color: #000000;
   transition-delay: 0.2s;
   transition: 0.3s;
   font-variant-caps: all-small-caps;
-  box-shadow: 4px 3px 11px 0 #000000;
+  /* box-shadow: 4px 3px 11px 0 #000000; */
 }
 .mybtn:hover {
   background-color: #5a67b2;
-  box-shadow: 4px 3px 11px 0 #5a67b2;
+  /* box-shadow: 4px 3px 11px 0 #5a67b2; */
   color: white;
 }
 .btn2 {
@@ -470,11 +471,11 @@ header .nav-fixed .nav-item .m-btn:hover {
   transition-delay: 0.2s;
   transition: 0.3s;
   font-variant-caps: all-small-caps;
-  box-shadow: 4px 3px 11px 0 #5a67b2;
+  /* box-shadow: 4px 3px 11px 0 #5a67b2; */
 }
 .mybtn2:hover {
-  background-color: #ffffff;
-  box-shadow: 4px 3px 11px 0 #000000;
+  background-color: #f2f3f5;
+  /* box-shadow: 4px 3px 11px 0 #000000; */
   color: rgb(0, 0, 0);
 }
 .bannerImg img {
@@ -496,5 +497,23 @@ header .nav-fixed .nav-item .m-btn:hover {
   }
   to {
     bottom: 90%;
+  }
+}
+
+.banner .plus-shape img {
+  width: 80%;
+}
+.banner .plus-shape {
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  animation: myrotate 50s infinite linear;
+}
+@keyframes myrotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
