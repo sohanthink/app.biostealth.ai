@@ -267,6 +267,7 @@ header .nav-fixed .nav-item .m-btn {
   padding: 14px 20px;
   margin: 0px;
 }
+
 header .nav-fixed .nav-item .m-btn:hover {
   color: #5a67b2;
   background-color: white;
@@ -302,6 +303,7 @@ header .nav-fixed .nav-item .m-btn:hover {
     font-size: 18px;
   }
 }
+
 #mySidenav {
   display: none;
 }
