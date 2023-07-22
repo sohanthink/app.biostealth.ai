@@ -484,8 +484,10 @@ header .nav-fixed .nav-item .m-btn:hover {
 .bannerImg img {
   filter: drop-shadow(0px 5px 17px #000);
   margin-left: 5%;
-  z-index: 999;
 }
+
+/* right side png image animation */
+
 .banner .animation img {
   width: 80%;
 }
@@ -503,6 +505,9 @@ header .nav-fixed .nav-item .m-btn:hover {
     bottom: 90%;
   }
 }
+
+/* plus shape animation */
+
 .banner .plus-shape img {
   width: 80%;
 }
@@ -520,6 +525,8 @@ header .nav-fixed .nav-item .m-btn:hover {
     transform: rotate(360deg);
   }
 }
+
+/* animation an second shape beside the banner image */
 
 .banner .shape2 img {
   width: 70%;
