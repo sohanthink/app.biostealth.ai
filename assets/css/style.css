@@ -428,14 +428,14 @@ header .nav-fixed .nav-item .m-btn:hover {
 
 .banner h1 {
   font-weight: 600;
-  color: rgb(0, 0, 0);
   font-style: italic;
   color: #35434c;
+  font-size: 60px;
 }
 .banner p {
   margin-top: 30px;
   color: #5a67b2;
-  padding-right: 30px;
+  padding-right: 60px;
 }
 .button {
   margin-top: 40px;
@@ -485,7 +485,6 @@ header .nav-fixed .nav-item .m-btn:hover {
 }
 .bannerImg img {
   filter: drop-shadow(0px 5px 17px #000);
-  scale: 1.1;
 }
 
 /* right side png image animation */
