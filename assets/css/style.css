@@ -77,6 +77,7 @@ p {
 }
 
 /* header part css */
+
 .header {
   background-color: rgb(255, 255, 255) !important;
   padding-top: 19px;
@@ -434,6 +435,7 @@ header .nav-fixed .nav-item .m-btn:hover {
 .banner p {
   margin-top: 30px;
   color: #5a67b2;
+  padding-right: 30px;
 }
 .button {
   margin-top: 40px;
@@ -483,7 +485,7 @@ header .nav-fixed .nav-item .m-btn:hover {
 }
 .bannerImg img {
   filter: drop-shadow(0px 5px 17px #000);
-  margin-left: 5%;
+  scale: 1.1;
 }
 
 /* right side png image animation */
