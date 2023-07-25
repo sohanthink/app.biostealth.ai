@@ -436,7 +436,7 @@ header .nav-fixed .nav-item .m-btn:hover {
   margin-top: 30px;
   color: #5a67b2;
   padding-right: 100px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .button {
   margin-top: 40px;
@@ -486,7 +486,7 @@ header .nav-fixed .nav-item .m-btn:hover {
 }
 .bannerImg img {
   filter: drop-shadow(0px 5px 17px #000);
-  scale: 1.2;
+  scale: 1.1;
 }
 
 /* right side png image animation */
