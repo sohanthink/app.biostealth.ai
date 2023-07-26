@@ -436,37 +436,21 @@ header .nav-fixed .nav-item .m-btn:hover {
   margin-top: 30px;
   color: #5a67b2;
   padding-right: 100px;
-  font-size: 20px;
 }
 .button {
   margin-top: 40px;
 }
-.btn {
-  text-align: center;
+.button i {
+  font-size: 35px;
 }
-.mybtn {
-  border-radius: 3px;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 20px;
-  padding: 10px 20px;
-  background-color: #f2f3f5;
-  color: #000000;
-  transition-delay: 0.2s;
-  transition: 0.3s;
-  font-variant-caps: all-small-caps;
-  /* box-shadow: 4px 3px 11px 0 #000000; */
+.button .text span {
+  font-size: 32px;
 }
-.mybtn:hover {
-  background-color: #5a67b2;
-  /* box-shadow: 4px 3px 11px 0 #5a67b2; */
-  color: white;
+.windowsBtn {
+  margin-right: 20px;
 }
-.btn2 {
-  text-align: center;
-  margin-top: 7px;
-}
-.mybtn2 {
+.WBtn {
+  display: flex;
   border-radius: 3px;
   text-decoration: none;
   font-family: sans-serif;
@@ -477,13 +461,35 @@ header .nav-fixed .nav-item .m-btn:hover {
   transition-delay: 0.2s;
   transition: 0.3s;
   font-variant-caps: all-small-caps;
+  line-height: 19px;
+  align-items: center;
+}
+.WBtn:hover {
+  background-color: #dcdcdc;
   /* box-shadow: 4px 3px 11px 0 #5a67b2; */
+  color: #333333;
 }
-.mybtn2:hover {
-  background-color: #f2f3f5;
-  /* box-shadow: 4px 3px 11px 0 #000000; */
-  color: rgb(0, 0, 0);
+.MBtn {
+  display: flex;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #dcdcdc;
+  color: #333333;
+  transition-delay: 0.2s;
+  transition: 0.3s;
+  font-variant-caps: all-small-caps;
+  line-height: 19px;
+  align-items: center;
 }
+.MBtn:hover {
+  background-color: #5a67b2;
+  /* box-shadow: 4px 3px 11px 0 #5a67b2; */
+  color: #ffffff;
+}
+
 .bannerImg img {
   filter: drop-shadow(0px 5px 17px #000);
   scale: 1.1;
