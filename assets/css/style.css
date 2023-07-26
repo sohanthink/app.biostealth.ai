@@ -554,3 +554,73 @@ header .nav-fixed .nav-item .m-btn:hover {
     transform: rotate(0deg);
   }
 }
+/* responsive css start from here */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .banner {
+    top: 25px;
+  }
+  .banner h1 {
+    font-size: 35px;
+  }
+  .banner p {
+    margin-top: 50px;
+    color: #5a67b2;
+    font-size: 16px;
+  }
+  .bannerImg img {
+    filter: drop-shadow(0px 5px 17px #000);
+    scale: 1;
+    margin-top: 40px;
+  }
+  .WBtn {
+    font-size: 16px;
+    padding: 7px 13px;
+  }
+  .MBtn {
+    font-size: 16px;
+    padding: 7px 13px;
+  }
+  .button i {
+    font-size: 26px;
+  }
+  .button .text span {
+    font-size: 26px;
+  }
+  .button {
+    margin-top: 20px;
+  }
+  .banner .shape2 img {
+    width: 45%;
+  }
+  .banner .shape2 {
+    left: 80%;
+  }
+  .banner .plus-shape img {
+    width: 30%;
+    display: none;
+  }
+  .banner .animation img {
+    width: 42%;
+  }
+  .banner .animation {
+    right: 6px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
